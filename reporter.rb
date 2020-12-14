@@ -1,5 +1,5 @@
 # example usage
-# ruby reporter.rb --base=EUR --other=RUB --date=2020-12-10
+# ruby reporter.rb --base=EUR --other=RUB --date=2020-12-10 --format=xml
 # deeafult date - today, currencies BASE and OTHER values
 require 'net/http'
 require 'aws-sdk-s3'
